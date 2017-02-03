@@ -1,0 +1,972 @@
+html {
+	width: 960px;
+}
+
+header{
+	background-color: #ffffff;
+	border-color:#cccccc;
+	border-width: 0px;
+	border-bottom: 3px;
+	border-style: solid;
+	height: 70px;
+	min-width: 970px;
+	width: 100%;
+	top: -10px;
+	left: 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman, serif';
+	font-size: 25px;
+	font-weight: bold;
+	width: 200px;
+	height: 40px;
+	padding: 10px 10px 0 10px;
+	margin: 0 0 0 70px;
+	text-align: center;
+	top: 20px;
+	position: absolute;
+	float: left;
+}
+
+h1:hover {
+	opacity: 0.5;
+}
+
+
+nav{
+	color: #7777777;
+	background-color: #ffffff;
+	font-size: 15px;
+	border-color:#dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	margin: 15px 50px 0 0;
+	position: absolute;
+	top: 20px;
+	left: 690px;
+}
+
+.nav-tab:hover{
+	color: #000000;
+}
+
+#nav-about{
+	padding: 0 8px 0 0;
+	border: 0px;
+	border-right: 1px;
+	border-style: solid;
+}
+
+#nav-portfolio{
+	padding: 0 10px 0 10px;
+	border: 0px;
+	border-right: 1px;
+	border-style: solid;
+}
+
+#nav-contact{
+	padding: 0 0px 0 10px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman, serif';
+	border-color: #cccccc;
+	border-style: solid;
+	padding-bottom: 15px;
+	font-weight: bold; 
+}
+
+h2 {
+	border-width: 0px;
+	border-bottom-width: 3px;
+	margin: 25px 10px 25px 15px;
+	width: 450px;
+	font-size: 20px
+
+}
+
+h3 {
+	border-width: 0px;
+	margin: 15px 15px 15px 15px;
+	border-bottom-width: 1px;
+	padding: 5px 10px 15px 5px;
+	font-size: 17px;
+}
+
+img {
+	float: left;
+	margin: 10px;
+}
+
+a {
+  	color:inherit;
+  	text-decoration: none;
+ }
+
+body {
+	color:#777777;
+	background-image: url(../images/old_moon.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+	min-width: 960px;
+	height: 100%;
+	position: absolute;left: -10px;
+	}
+
+
+p{
+	font-size: 14px;
+	line-height: 1.75;
+	padding: 0 0 20px 20px;
+	}
+
+div {
+	background-color: #ffffff;
+	padding: 0px 10px 15px 20px;
+}
+
+footer {
+	background-color: #666666;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+	left: 0;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 5px;
+	clear: both;
+	margin-right: 0px;
+	min-width: 970px;
+	width: 100%;
+}
+
+#footer-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	clear: both;
+}
+
+
+.main {
+	clear: both;
+	width: 475px;
+	margin: 75px 50px 40px 90px;
+	margin-top: 100px;
+	padding-right: 30px;
+	float: left;
+	background-color: #ffffff;
+}
+
+.sidebar {
+	margin: 100px 0 75px 0px;
+	width: 220px;
+	float: left;
+	background-color: #ffffff;
+	padding: 0px 10px 10px 10px;
+}
+
+.social-link {
+	margin: 0px 5px 5px 15px;
+}
+
+.social-link:hover {
+	opacity: 0.5;
+}
+
+.profile {
+	width:150px;
+	height:150px;
+	margin: 0px 20px 0px 20px;
+}
+
+.image-all {
+	padding: 0;
+}
+
+
+.project-img {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin: 20px 15px 20px 20px;
+	position: relative;
+	z-index: 10;
+}
+
+.project-img:hover {
+	opacity: 0.5;
+}
+
+
+.project-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman, serif';
+	font-size: 19px;
+	width: 180px;
+	padding: 10px 10px 10px 10px;
+	margin: 0 0 0 100px;
+	text-align: center;
+	position: absolute;
+	z-index: 20;
+}
+
+#title-hangman{
+	top: 285px;
+	left: 30px;
+}
+
+#title-rpg{
+	top: 285px;
+	left: 265px;
+}
+
+#title-trivia{
+	top: 475px;
+	left: 30px;
+}
+
+#title-rutgers{
+	top: 475px;
+	left: 265px;
+}
+
+#title-rock{
+	top: 665px;
+	left: 30px;
+}
+
+#contact-form {
+	line-height: 1.5;
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box {
+	width: 445px;
+	height: 20px;
+}
+
+#Message-box {
+	line-height: 1.25;
+	width: 445px;
+	border-color: #cccccc;
+}
+
+#submit-button {
+	height: 30px;
+	width: 80px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	margin: 15px 0 20px 20px;
+	font-size: 12px;
+}
+
+#submit-button:hover {
+	opacity: .5;
+}
+
+.placeholder-img {
+	height: 375px;
+	width: 250px;
+	margin: 0 20px 20px 20px;
+ }
+
+
+	
+@media screen and (max-width: 768px) {
+	html {
+		}
+
+		header{
+			background-color: #ffffff;
+			border-color:#cccccc;
+			border-width: 0px;
+			border-bottom: 3px;
+			border-style: solid;
+			height: 70px;
+			width: 102%;
+			top: -10px;
+			left: 0px;
+			margin: 0px 0px 0px 0px;
+			min-width: 100%;
+		}
+
+		h1 {
+			background-color: #4aaaa5;
+			color: #ffffff;
+			font-family: 'Georgia', Times, 'Times New Roman, serif';
+			font-size: 25px;
+			font-weight: bold;
+			width: 200px;
+			height: 40px;
+			padding: 15px 10px 5px 10px;
+			margin: 0 0 0 5%;
+			text-align: center;
+			top: 10px;
+			position: absolute;
+			float: left;
+		}
+
+		h1:hover {
+			opacity: 0.5;
+		}
+
+
+		nav{
+			color: #7777777;
+			background-color: #ffffff;
+			font-size: 15px;
+			border-color:#dddddd;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			float: right;
+			right: 100px;
+			margin: 35px 5% 0 0;
+			position: static;
+			top: 20px;
+		}
+
+
+		#nav-about{
+			padding: 0 10px 0 0;
+			border: 0px;
+			border-right: 1px;
+			border-style: solid;
+		}
+
+		#nav-portfolio{
+			padding: 0 10px 0 10px;
+			border: 0px;
+			border-right: 1px;
+			border-style: solid;
+		}
+
+		#nav-contact{
+			padding: 0 10px 0 10px;
+		}
+
+		h2, h3 {
+			color: #4aaaa5;
+			font-family: 'Georgia', Times, 'Times New Roman, serif';
+			border-color: #cccccc;
+			border-style: solid;
+			padding-bottom: 15px;
+			font-weight: bold; 
+		}
+
+		h2 {
+			border-width: 0px;
+			border-bottom-width: 3px;
+			margin: 25px 10px 25px 15px;
+			width: auto;
+			font-size: 24px
+
+		}
+
+		h3 {
+			border-width: 0px;
+			margin: 15px 15px 15px 15px;
+			border-bottom-width: 1px;
+			padding: 5px 10px 15px 5px;
+			font-size: 20px;
+		}
+
+		img {
+			float: left;
+			margin: 10px;
+		}
+
+		a {
+		  	color:inherit;
+		  	text-decoration: none;
+		 }
+
+		body {
+			color:#777777;
+			background-image: url(../images/old_moon.png);
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			width: 100%;
+			height: 100%;
+			position: absolute;left: -10px;
+			min-width: 100%;
+			}
+
+
+		p{
+			font-size: 15px;
+			line-height: 1.75;
+			padding: 0 0 20px 20px;
+			}
+
+		div {
+			background-color: #ffffff;
+			padding: 0px 10px 15px 20px;
+		}
+
+		footer {
+			background-color: #666666;
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 11px;
+			color: #ffffff;
+			text-align: center;
+			left: 0;
+			border-color: #4aaaa5;
+			border-style: solid;
+			border-width: 0px;
+			border-top-width: 5px;
+			clear: both;
+			margin-right: 0px;
+			width: 102%;
+			min-width: 100%;
+		}
+
+		#footer-text {
+			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 11px;
+			color: #ffffff;
+			text-align: center;
+			padding: 20px 0 20px 0;
+			clear: both;
+		}
+
+
+		.main {
+			clear: both;
+			width: 80%;
+			display: block;
+			margin: 100px 7% 20px 8%;
+			padding-right: 30px;
+			background-color: #ffffff;
+		}
+
+		.sidebar {
+			clear: both;
+			width: 80%;
+			display: block;
+			margin: 20px 7% 40px 8%;
+			background-color: #ffffff;
+			padding: 0px 30px 10px 20px;
+		}
+
+		.social-link {
+			display: inline;
+			margin: 0px 0px 10px 20px;
+			text-align: center;
+		}
+
+		.social-link:hover {
+			opacity: 0.5;
+		}
+
+		.profile {
+			width:250px;
+			height:250px;
+			margin: 0px 20px 0px 20px;
+		}
+
+		.main-portfolio {
+			position: relative;
+			padding-bottom: 25px;
+			width: 510px;
+		}
+
+		.h2-portfolio {
+			width: 480px
+		}
+
+		.sidebar-portfolio {
+			width: 510px;
+		}
+
+		.social-link-portfolio {
+			margin: 0px 0px 10px 20px;
+		}
+
+		.h3-portfolio {
+			width: 480px
+		}
+
+		.image-all {
+			position: relative;
+			margin: 10px 0 10px 0;
+			top: 10px;
+		}
+	
+		.project-img {
+			clear: all;
+			width: 225px;
+			height: 175px;
+			display: block;
+			margin: 10px 0 10px 0;
+			position: relative;
+			z-index: 10;
+		}
+
+		.left-project-img {
+			float: left;
+			display: block;
+			margin: 10px 30px 10px 15px;
+			position: relative;
+			z-index: 10;
+			top: -10px;
+		}
+
+		.right-project-img {
+			float: left;
+			display: block;
+			margin: 10px 0 10px 0px;
+			position: relative;
+			z-index: 10;
+			top: -10px;
+		}
+
+		.project-img:hover {
+			opacity: 0.5;
+		}
+
+
+		.project-title {
+			background-color: #4aaaa5;
+			color: #ffffff;
+			font-family: 'Georgia', Times, 'Times New Roman, serif';
+			font-size: 19px;
+			width: 205px;
+			padding: 10px 10px 10px 10px;
+			margin: 0 0 0 200px;
+			text-align: center;
+			position: absolute;
+			z-index: 20;
+		}
+
+		.left-project-title {
+			padding: 10px 10px 10px 10px;
+			margin: 0;
+			text-align: center;
+			display: block;
+			float: left;
+		}
+
+		.right-project-title {
+			padding: 10px 10px 10px 10px;
+			margin: 0;
+			text-align: center;
+			display: block;
+			float: left;
+		}
+
+		#title-hangman{
+			top: 115px;
+			left: 15px;
+		}
+
+		#title-rpg{
+			top: 115px;
+			left: 270px;
+		}
+
+		#title-trivia{
+			top: 310px;
+			left: 15px;
+		}
+
+		#title-rutgers{
+			top: 310px;
+			left: 270px;
+		}
+
+		#title-rock{
+			top: 505px;
+			left: 15px;
+		}
+
+		.box {
+			width: 445px;
+			height: 20px;
+		}
+
+		#Message-box {
+			line-height: 1.25;
+			width: 445px;
+			border-color: #cccccc;
+		}
+
+		#submit-button {
+			height: 30px;
+			width: 80px;
+			background-color: #4aaaa5;
+			color: #ffffff;
+			border: none;
+			margin: 15px 0 20px 20px;
+			font-size: 12px;
+		}
+
+		.placeholder-img {
+			height: 375px;
+			width: 250px;
+			margin: 0 20px 20px 20px;
+		 }
+}
+
+@media screen and (max-width: 640px) {
+						html {
+				}
+
+				header{
+					background-color: #ffffff;
+					border-color:#cccccc;
+					border-width: 0px;
+					border-bottom: 3px;
+					border-style: solid;
+					height: 135px;
+					width: 102%;
+					top: -10px;
+					left: 0px;
+					margin: 0px 0px 0px 0px;
+					min-width: 100%;
+				}
+
+				h1 {
+					background-color: #4aaaa5;
+					color: #ffffff;
+					font-family: 'Georgia', Times, 'Times New Roman, serif';
+					font-size: 25px;
+					font-weight: bold;
+					width: 96%;
+					height: 40px;
+					padding: 20px 10px 5px 10px;
+					margin: 0 0 20px -2%;
+					text-align: center;
+					top: 10px;
+					position: absolute;
+					float: left;
+				}
+
+				h1:hover {
+					opacity: 0.5;
+				}
+
+
+				nav{
+					color: #7777777;
+					background-color: #ffffff;
+					font-size: 18px;
+					border-color:#dddddd;
+					font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+					clear: both;
+					width: 100%;
+					margin: auto;
+					margin-top: 95px;
+					position: static;
+					top: 20px;
+				}
+
+
+				#nav-about{
+					padding: 0 15% 0 10%;
+					border: 0px;
+					border-right: 1px;
+					border-style: solid;
+					width: 5%;
+				}
+
+				#nav-portfolio{
+					padding: 0 12% 0 12%;
+					border: 0px;
+					border-right: 1px;
+					border-style: solid;
+					width: 5%;
+				}
+
+				#nav-contact{
+					padding: 0 8% 0 9%;
+					width: 5%;
+				}
+
+				h2, h3 {
+					color: #4aaaa5;
+					font-family: 'Georgia', Times, 'Times New Roman, serif';
+					border-color: #cccccc;
+					border-style: solid;
+					padding-bottom: 15px;
+					font-weight: bold; 
+				}
+
+				h2 {
+					border-width: 0px;
+					border-bottom-width: 3px;
+					margin: 25px 10px 25px 15px;
+					width: auto;
+					font-size: 24px
+
+				}
+
+				h3 {
+					border-width: 0px;
+					margin: 15px 15px 15px 15px;
+					border-bottom-width: 1px;
+					padding: 5px 10px 15px 5px;
+					font-size: 20px;
+				}
+
+				img {
+					float: left;
+					margin: 10px;
+				}
+
+				a {
+				  	color:inherit;
+				  	text-decoration: none;
+				 }
+
+				body {
+					color:#777777;
+					background-image: url(../images/old_moon.png);
+					font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+					width: 100%;
+					height: 100%;
+					position: absolute;left: -10px;
+					min-width: 100%;
+					}
+
+
+				p{
+					font-size: 15px;
+					line-height: 1.75;
+					padding: 0 0 20px 20px;
+					}
+
+				div {
+					background-color: #ffffff;
+					padding: 0px 10px 15px 20px;
+				}
+
+				footer {
+					background-color: #666666;
+					font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+					font-size: 11px;
+					color: #ffffff;
+					text-align: center;
+					left: 0;
+					border-color: #4aaaa5;
+					border-style: solid;
+					border-width: 0px;
+					border-top-width: 5px;
+					clear: both;
+					margin-right: 0px;
+					width: 102%;
+					min-width: 100%;
+				}
+
+				#footer-text {
+					font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+					font-size: 11px;
+					color: #ffffff;
+					text-align: center;
+					padding: 20px 0 20px 0;
+					clear: both;
+				}
+
+
+				.main {
+					clear: both;
+					width: 80%;
+					display: block;
+					margin: 170px 7% 20px 8%;
+					padding-right: 30px;
+					background-color: #ffffff;
+				}
+
+				.sidebar {
+					clear: both;
+					width: 80%;
+					display: block;
+					margin: 20px 7% 40px 8%;
+					background-color: #ffffff;
+					padding: 0px 30px 10px 20px;
+				}
+
+				.social-link {
+					display: inline;
+					margin: 0px 0px 10px 20px;
+					text-align: center;
+				}
+
+				.social-link:hover {
+					opacity: 0.5;
+				}
+
+				.profile {
+					width:470px;
+					height:470px;
+					margin: 0px 20px 20px 20px;
+				}
+
+				.main-portfolio {
+					position: relative;
+					padding-bottom: 25px;
+					width: 510px;
+				}
+
+				.h2-portfolio {
+					width: 480px
+				}
+
+				.sidebar-portfolio {
+					width: 510px;
+				}
+
+				.social-link-portfolio {
+					margin: 0px 0px 10px 20px;
+				}
+
+				.h3-portfolio {
+					width: 480px
+				}
+
+				.image-all {
+					position: relative;
+					margin: 10px 0 10px 0;
+					top: 10px;
+				}
+			
+				.project-img {
+					clear: all;
+					width: 475px;
+					height: 375px;
+					display: block;
+					margin: 10px 0 10px 0;
+					position: relative;
+					z-index: 10;
+				}
+
+				.left-project-img {
+					float: left;
+					display: block;
+					margin: 10px 30px 10px 15px;
+					position: relative;
+					z-index: 10;
+					top: -10px;
+				}
+
+				.right-project-img {
+					float: left;
+					display: block;
+					margin: 10px 30px 10px 15px;
+					position: relative;
+					z-index: 10;
+					top: -10px;
+				}
+
+				.project-img:hover {
+					opacity: 0.5;
+				}
+
+
+				.project-title {
+					background-color: #4aaaa5;
+					color: #ffffff;
+					font-family: 'Georgia', Times, 'Times New Roman, serif';
+					font-size: 24px;
+					width: 455px;
+					padding: 10px 10px 10px 10px;
+					margin: 0 0 0 200px;
+					text-align: center;
+					position: absolute;
+					z-index: 20;
+				}
+
+				.left-project-title {
+					padding: 15px 10px 15px 10px;
+					margin: 0;
+					text-align: center;
+					display: block;
+					float: left;
+				}
+
+				.right-project-title {
+					padding: 15px 10px 15px 10px;
+					margin: 0;
+					text-align: center;
+					display: block;
+					float: left;
+				}
+
+				#title-hangman{
+					top: 305px;
+					left: 15px;
+				}
+
+				#title-rpg{
+					top: 700px;
+					left: 15px;
+				}
+
+				#title-trivia{
+					top: 1095px;
+					left: 15px;
+				}
+
+				#title-rutgers{
+					top: 1490px;
+					left: 15px;
+				}
+
+				#title-rock{
+					top: 1885px;
+					left: 15px;
+				}
+
+				.box {
+					width: 445px;
+					height: 20px;
+				}
+
+				#Message-box {
+					line-height: 1.25;
+					width: 445px;
+					border-color: #cccccc;
+				}
+
+				#submit-button {
+					height: 30px;
+					width: 80px;
+					background-color: #4aaaa5;
+					color: #ffffff;
+					border: none;
+					margin: 15px 0 20px 20px;
+					font-size: 12px;
+				}
+
+				.placeholder-img {
+					height: 375px;
+					width: 250px;
+					margin: 0 20px 20px 20px;
+				 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
